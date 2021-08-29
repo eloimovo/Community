@@ -1,0 +1,1499 @@
+2021-08-25 00:05:49,974 INFO [restartedMain] c.e.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on Eloim-Essaim with PID 17736 (D:\Study\Community\target\classes started by Eloim in D:\Study\Community)
+2021-08-25 00:05:49,993 INFO [restartedMain] c.e.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2021-08-25 00:05:50,067 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-25 00:05:50,067 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-25 00:05:51,244 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-25 00:05:51,246 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-08-25 00:05:51,328 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:182] Finished Spring Data repository scanning in 78ms. Found 1 repository interfaces.
+2021-08-25 00:05:51,342 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-25 00:05:51,343 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-08-25 00:05:51,363 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationExtensionSupport [RepositoryConfigurationExtensionSupport.java:363] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.eloim.community.dao.elasticsearch.DiscussPostRepository.
+2021-08-25 00:05:51,363 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:182] Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2021-08-25 00:05:51,715 INFO [restartedMain] c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor [EnableEncryptablePropertiesBeanFactoryPostProcessor.java:48] Post-processing PropertySource instances
+2021-08-25 00:05:51,766 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2021-08-25 00:05:51,766 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-08-25 00:05:51,766 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-08-25 00:05:51,767 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-08-25 00:05:51,767 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2021-08-25 00:05:51,767 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2021-08-25 00:05:51,767 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-08-25 00:05:51,768 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-08-25 00:05:51,795 INFO [restartedMain] c.u.j.f.DefaultLazyPropertyFilter [DefaultLazyPropertyFilter.java:34] Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2021-08-25 00:05:51,822 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$aee2ddd0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-25 00:05:51,869 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$db30cc4d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-25 00:05:52,031 INFO [restartedMain] c.u.j.r.DefaultLazyPropertyResolver [DefaultLazyPropertyResolver.java:35] Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2021-08-25 00:05:52,033 INFO [restartedMain] c.u.j.d.DefaultLazyPropertyDetector [DefaultLazyPropertyDetector.java:33] Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2021-08-25 00:05:52,456 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
+2021-08-25 00:05:52,466 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-25 00:05:52,476 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2021-08-25 00:05:52,476 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2021-08-25 00:05:52,604 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2021-08-25 00:05:52,604 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 2536 ms
+2021-08-25 00:05:54,056 INFO [restartedMain] o.e.p.PluginsService [PluginsService.java:190] no modules loaded
+2021-08-25 00:05:54,058 INFO [restartedMain] o.e.p.PluginsService [PluginsService.java:193] loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2021-08-25 00:05:54,058 INFO [restartedMain] o.e.p.PluginsService [PluginsService.java:193] loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2021-08-25 00:05:54,059 INFO [restartedMain] o.e.p.PluginsService [PluginsService.java:193] loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2021-08-25 00:05:54,059 INFO [restartedMain] o.e.p.PluginsService [PluginsService.java:193] loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2021-08-25 00:05:54,059 INFO [restartedMain] o.e.p.PluginsService [PluginsService.java:193] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2021-08-25 00:05:55,556 INFO [restartedMain] o.s.d.e.c.TransportClientFactoryBean [TransportClientFactoryBean.java:88] Adding transport node : 127.0.0.1:9300
+2021-08-25 00:05:58,591 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
+2021-08-25 00:05:58,895 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-25 00:05:59,015 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2021-08-25 00:05:59,699 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2021-08-25 00:05:59,787 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2021-08-25 00:05:59,845 INFO [restartedMain] o.q.i.StdSchedulerFactory [StdSchedulerFactory.java:1208] Using default implementation for ThreadExecutor
+2021-08-25 00:05:59,854 INFO [restartedMain] o.q.c.SchedulerSignalerImpl [SchedulerSignalerImpl.java:61] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-08-25 00:05:59,854 INFO [restartedMain] o.q.c.QuartzScheduler [QuartzScheduler.java:229] Quartz Scheduler v.2.3.1 created.
+2021-08-25 00:05:59,857 INFO [restartedMain] o.s.s.q.LocalDataSourceJobStore [JobStoreSupport.java:672] Using db table-based data access locking (synchronization).
+2021-08-25 00:05:59,859 INFO [restartedMain] o.s.s.q.LocalDataSourceJobStore [JobStoreCMT.java:145] JobStoreCMT initialized.
+2021-08-25 00:05:59,860 INFO [restartedMain] o.q.c.QuartzScheduler [QuartzScheduler.java:294] Scheduler meta-data: Quartz Scheduler (v2.3.1) 'communityScheduler' with instanceId 'Eloim-Essaim1629821159846'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2021-08-25 00:05:59,860 INFO [restartedMain] o.q.i.StdSchedulerFactory [StdSchedulerFactory.java:1362] Quartz scheduler 'communityScheduler' initialized from an externally provided properties instance.
+2021-08-25 00:05:59,860 INFO [restartedMain] o.q.i.StdSchedulerFactory [StdSchedulerFactory.java:1366] Quartz scheduler version: 2.3.1
+2021-08-25 00:05:59,860 INFO [restartedMain] o.q.c.QuartzScheduler [QuartzScheduler.java:2293] JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@5c64d767
+2021-08-25 00:06:00,025 INFO [restartedMain] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [UserDetailsServiceAutoConfiguration.java:87] 
+
+Using generated security password: a2cf0f91-4a4a-4c9d-aec9-881db729d8b4
+
+2021-08-25 00:06:00,093 INFO [restartedMain] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:43] Creating filter chain: Ant [pattern='/resources/**'], []
+2021-08-25 00:06:00,165 INFO [restartedMain] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:43] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@41734e0e, org.springframework.security.web.context.SecurityContextPersistenceFilter@454e8585, org.springframework.security.web.header.HeaderWriterFilter@19d72968, org.springframework.security.web.authentication.logout.LogoutFilter@3f74dc7a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@497c6e86, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2a45e0a8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7a96bc4, org.springframework.security.web.session.SessionManagementFilter@5cecb329, org.springframework.security.web.access.ExceptionTranslationFilter@31c45a6c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3c7fb679]
+2021-08-25 00:06:00,365 INFO [restartedMain] o.a.k.c.c.ConsumerConfig [AbstractConfig.java:279] ConsumerConfig values: 
+	auto.commit.interval.ms = 3000
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.42.3:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = eloim-consumer-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2021-08-25 00:06:00,403 INFO [restartedMain] o.a.k.c.u.AppInfoParser [AppInfoParser.java:109] Kafka version : 2.0.1
+2021-08-25 00:06:00,403 INFO [restartedMain] o.a.k.c.u.AppInfoParser [AppInfoParser.java:110] Kafka commitId : fa14705e51bd2ce5
+2021-08-25 00:07:00,482 INFO [restartedMain] o.s.s.q.SchedulerFactoryBean [SchedulerFactoryBean.java:844] Shutting down Quartz Scheduler
+2021-08-25 00:07:00,482 INFO [restartedMain] o.q.c.QuartzScheduler [QuartzScheduler.java:666] Scheduler communityScheduler_$_Eloim-Essaim1629821159846 shutting down.
+2021-08-25 00:07:00,482 INFO [restartedMain] o.q.c.QuartzScheduler [QuartzScheduler.java:585] Scheduler communityScheduler_$_Eloim-Essaim1629821159846 paused.
+2021-08-25 00:07:00,483 INFO [restartedMain] o.q.c.QuartzScheduler [QuartzScheduler.java:740] Scheduler communityScheduler_$_Eloim-Essaim1629821159846 shutdown complete.
+2021-08-25 00:07:00,485 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-25 00:07:00,502 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2021-08-25 00:07:00,507 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2021-08-25 00:07:00,509 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
+2021-08-25 00:07:00,518 INFO [restartedMain] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:142] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-08-25 00:13:40,191 INFO [restartedMain] c.e.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on Eloim-Essaim with PID 9160 (D:\Study\Community\target\classes started by Eloim in D:\Study\Community)
+2021-08-25 00:13:40,192 INFO [restartedMain] c.e.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2021-08-25 00:13:40,221 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-25 00:13:40,221 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-25 00:13:40,835 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-25 00:13:40,836 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-08-25 00:13:40,888 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:182] Finished Spring Data repository scanning in 47ms. Found 1 repository interfaces.
+2021-08-25 00:13:40,895 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-25 00:13:40,896 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-08-25 00:13:40,910 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationExtensionSupport [RepositoryConfigurationExtensionSupport.java:363] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.eloim.community.dao.elasticsearch.DiscussPostRepository.
+2021-08-25 00:13:40,910 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:182] Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2021-08-25 00:13:41,187 INFO [restartedMain] c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor [EnableEncryptablePropertiesBeanFactoryPostProcessor.java:48] Post-processing PropertySource instances
+2021-08-25 00:13:41,231 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2021-08-25 00:13:41,231 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-08-25 00:13:41,231 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-08-25 00:13:41,232 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-08-25 00:13:41,232 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2021-08-25 00:13:41,233 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2021-08-25 00:13:41,233 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-08-25 00:13:41,233 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-08-25 00:13:41,252 INFO [restartedMain] c.u.j.f.DefaultLazyPropertyFilter [DefaultLazyPropertyFilter.java:34] Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2021-08-25 00:13:41,281 INFO [restartedMain] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:142] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-08-25 00:14:12,557 INFO [restartedMain] c.e.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on Eloim-Essaim with PID 8684 (D:\Study\Community\target\classes started by Eloim in D:\Study\Community)
+2021-08-25 00:14:12,558 INFO [restartedMain] c.e.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2021-08-25 00:14:12,589 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-25 00:14:12,589 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-25 00:14:13,218 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-25 00:14:13,220 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-08-25 00:14:13,272 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:182] Finished Spring Data repository scanning in 49ms. Found 1 repository interfaces.
+2021-08-25 00:14:13,281 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-25 00:14:13,282 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-08-25 00:14:13,295 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationExtensionSupport [RepositoryConfigurationExtensionSupport.java:363] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.eloim.community.dao.elasticsearch.DiscussPostRepository.
+2021-08-25 00:14:13,295 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:182] Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2021-08-25 00:14:13,570 INFO [restartedMain] c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor [EnableEncryptablePropertiesBeanFactoryPostProcessor.java:48] Post-processing PropertySource instances
+2021-08-25 00:14:13,612 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2021-08-25 00:14:13,613 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-08-25 00:14:13,613 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-08-25 00:14:13,613 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-08-25 00:14:13,613 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2021-08-25 00:14:13,613 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2021-08-25 00:14:13,614 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-08-25 00:14:13,614 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-08-25 00:14:13,633 INFO [restartedMain] c.u.j.f.DefaultLazyPropertyFilter [DefaultLazyPropertyFilter.java:34] Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2021-08-25 00:14:13,664 INFO [restartedMain] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:142] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-08-25 00:14:22,082 INFO [restartedMain] c.e.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on Eloim-Essaim with PID 6452 (D:\Study\Community\target\classes started by Eloim in D:\Study\Community)
+2021-08-25 00:14:22,083 INFO [restartedMain] c.e.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2021-08-25 00:14:22,116 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-25 00:14:22,116 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-25 00:14:22,733 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-25 00:14:22,734 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-08-25 00:14:22,786 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:182] Finished Spring Data repository scanning in 48ms. Found 1 repository interfaces.
+2021-08-25 00:14:22,794 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-25 00:14:22,795 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-08-25 00:14:22,808 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationExtensionSupport [RepositoryConfigurationExtensionSupport.java:363] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.eloim.community.dao.elasticsearch.DiscussPostRepository.
+2021-08-25 00:14:22,809 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:182] Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2021-08-25 00:14:23,090 INFO [restartedMain] c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor [EnableEncryptablePropertiesBeanFactoryPostProcessor.java:48] Post-processing PropertySource instances
+2021-08-25 00:14:23,131 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2021-08-25 00:14:23,132 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-08-25 00:14:23,133 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-08-25 00:14:23,133 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-08-25 00:14:23,134 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2021-08-25 00:14:23,134 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2021-08-25 00:14:23,134 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-08-25 00:14:23,135 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-08-25 00:14:23,158 INFO [restartedMain] c.u.j.f.DefaultLazyPropertyFilter [DefaultLazyPropertyFilter.java:34] Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2021-08-25 00:14:23,187 INFO [restartedMain] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:142] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-08-25 00:15:03,839 INFO [restartedMain] c.e.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on Eloim-Essaim with PID 19288 (D:\Study\Community\target\classes started by Eloim in D:\Study\Community)
+2021-08-25 00:15:03,842 INFO [restartedMain] c.e.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2021-08-25 00:15:03,898 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-25 00:15:03,898 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-25 00:15:04,486 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-25 00:15:04,488 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-08-25 00:15:04,540 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:182] Finished Spring Data repository scanning in 50ms. Found 1 repository interfaces.
+2021-08-25 00:15:04,549 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-25 00:15:04,550 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-08-25 00:15:04,562 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationExtensionSupport [RepositoryConfigurationExtensionSupport.java:363] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.eloim.community.dao.elasticsearch.DiscussPostRepository.
+2021-08-25 00:15:04,563 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:182] Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2021-08-25 00:15:04,821 INFO [restartedMain] c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor [EnableEncryptablePropertiesBeanFactoryPostProcessor.java:48] Post-processing PropertySource instances
+2021-08-25 00:15:04,863 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2021-08-25 00:15:04,864 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-08-25 00:15:04,864 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-08-25 00:15:04,865 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-08-25 00:15:04,865 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2021-08-25 00:15:04,865 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2021-08-25 00:15:04,866 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-08-25 00:15:04,866 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-08-25 00:15:04,884 INFO [restartedMain] c.u.j.f.DefaultLazyPropertyFilter [DefaultLazyPropertyFilter.java:34] Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2021-08-25 00:15:04,907 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$5de9fec4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-25 00:15:04,943 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8a37ed41] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-25 00:15:05,066 INFO [restartedMain] c.u.j.r.DefaultLazyPropertyResolver [DefaultLazyPropertyResolver.java:35] Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2021-08-25 00:15:05,067 INFO [restartedMain] c.u.j.d.DefaultLazyPropertyDetector [DefaultLazyPropertyDetector.java:33] Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2021-08-25 00:15:05,406 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
+2021-08-25 00:15:05,417 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-25 00:15:05,423 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2021-08-25 00:15:05,424 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2021-08-25 00:15:05,532 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2021-08-25 00:15:05,532 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 1634 ms
+2021-08-25 00:15:06,600 INFO [restartedMain] o.e.p.PluginsService [PluginsService.java:190] no modules loaded
+2021-08-25 00:15:06,601 INFO [restartedMain] o.e.p.PluginsService [PluginsService.java:193] loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2021-08-25 00:15:06,601 INFO [restartedMain] o.e.p.PluginsService [PluginsService.java:193] loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2021-08-25 00:15:06,601 INFO [restartedMain] o.e.p.PluginsService [PluginsService.java:193] loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2021-08-25 00:15:06,602 INFO [restartedMain] o.e.p.PluginsService [PluginsService.java:193] loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2021-08-25 00:15:06,602 INFO [restartedMain] o.e.p.PluginsService [PluginsService.java:193] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2021-08-25 00:15:07,701 INFO [restartedMain] o.s.d.e.c.TransportClientFactoryBean [TransportClientFactoryBean.java:88] Adding transport node : 127.0.0.1:9300
+2021-08-25 00:15:10,607 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
+2021-08-25 00:15:10,821 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-25 00:15:10,929 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2021-08-25 00:15:11,607 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2021-08-25 00:15:11,690 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2021-08-25 00:15:11,745 INFO [restartedMain] o.q.i.StdSchedulerFactory [StdSchedulerFactory.java:1208] Using default implementation for ThreadExecutor
+2021-08-25 00:15:11,752 INFO [restartedMain] o.q.c.SchedulerSignalerImpl [SchedulerSignalerImpl.java:61] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-08-25 00:15:11,752 INFO [restartedMain] o.q.c.QuartzScheduler [QuartzScheduler.java:229] Quartz Scheduler v.2.3.1 created.
+2021-08-25 00:15:11,755 INFO [restartedMain] o.s.s.q.LocalDataSourceJobStore [JobStoreSupport.java:672] Using db table-based data access locking (synchronization).
+2021-08-25 00:15:11,757 INFO [restartedMain] o.s.s.q.LocalDataSourceJobStore [JobStoreCMT.java:145] JobStoreCMT initialized.
+2021-08-25 00:15:11,758 INFO [restartedMain] o.q.c.QuartzScheduler [QuartzScheduler.java:294] Scheduler meta-data: Quartz Scheduler (v2.3.1) 'communityScheduler' with instanceId 'Eloim-Essaim1629821711746'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2021-08-25 00:15:11,758 INFO [restartedMain] o.q.i.StdSchedulerFactory [StdSchedulerFactory.java:1362] Quartz scheduler 'communityScheduler' initialized from an externally provided properties instance.
+2021-08-25 00:15:11,758 INFO [restartedMain] o.q.i.StdSchedulerFactory [StdSchedulerFactory.java:1366] Quartz scheduler version: 2.3.1
+2021-08-25 00:15:11,758 INFO [restartedMain] o.q.c.QuartzScheduler [QuartzScheduler.java:2293] JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@e601e15
+2021-08-25 00:15:11,867 INFO [restartedMain] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [UserDetailsServiceAutoConfiguration.java:87] 
+
+Using generated security password: 446229ed-0ac2-484e-98a4-500fb2f404bb
+
+2021-08-25 00:15:11,921 INFO [restartedMain] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:43] Creating filter chain: Ant [pattern='/resources/**'], []
+2021-08-25 00:15:11,955 INFO [restartedMain] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:43] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3c7fb679, org.springframework.security.web.context.SecurityContextPersistenceFilter@2456d16e, org.springframework.security.web.header.HeaderWriterFilter@7945eb12, org.springframework.security.web.authentication.logout.LogoutFilter@667a3a11, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4e3c4d57, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5270422d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@57287fa9, org.springframework.security.web.session.SessionManagementFilter@19d72968, org.springframework.security.web.access.ExceptionTranslationFilter@58a2fa52, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@746f4fa3]
+2021-08-25 00:15:12,130 INFO [restartedMain] o.a.k.c.c.ConsumerConfig [AbstractConfig.java:279] ConsumerConfig values: 
+	auto.commit.interval.ms = 3000
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.42.3:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = eloim-consumer-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2021-08-25 00:15:12,168 INFO [restartedMain] o.a.k.c.u.AppInfoParser [AppInfoParser.java:109] Kafka version : 2.0.1
+2021-08-25 00:15:12,169 INFO [restartedMain] o.a.k.c.u.AppInfoParser [AppInfoParser.java:110] Kafka commitId : fa14705e51bd2ce5
+2021-08-25 00:15:12,272 INFO [restartedMain] o.a.k.c.Metadata [Metadata.java:285] Cluster ID: OzG0GF-lRxG0bYxy19qLiA
+2021-08-25 00:16:12,251 INFO [restartedMain] o.s.s.q.SchedulerFactoryBean [SchedulerFactoryBean.java:844] Shutting down Quartz Scheduler
+2021-08-25 00:16:12,251 INFO [restartedMain] o.q.c.QuartzScheduler [QuartzScheduler.java:666] Scheduler communityScheduler_$_Eloim-Essaim1629821711746 shutting down.
+2021-08-25 00:16:12,251 INFO [restartedMain] o.q.c.QuartzScheduler [QuartzScheduler.java:585] Scheduler communityScheduler_$_Eloim-Essaim1629821711746 paused.
+2021-08-25 00:16:12,252 INFO [restartedMain] o.q.c.QuartzScheduler [QuartzScheduler.java:740] Scheduler communityScheduler_$_Eloim-Essaim1629821711746 shutdown complete.
+2021-08-25 00:16:12,255 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-25 00:16:12,270 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2021-08-25 00:16:12,274 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2021-08-25 00:16:12,276 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
+2021-08-25 00:16:12,285 INFO [restartedMain] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:142] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-08-25 00:24:38,156 INFO [restartedMain] c.e.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on Eloim-Essaim with PID 19620 (D:\Study\Community\target\classes started by Eloim in D:\Study\Community)
+2021-08-25 00:24:38,158 INFO [restartedMain] c.e.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2021-08-25 00:24:38,213 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-25 00:24:38,213 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-25 00:24:38,819 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-25 00:24:38,821 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-08-25 00:24:38,872 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:182] Finished Spring Data repository scanning in 48ms. Found 1 repository interfaces.
+2021-08-25 00:24:38,880 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-25 00:24:38,881 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-08-25 00:24:38,899 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationExtensionSupport [RepositoryConfigurationExtensionSupport.java:363] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.eloim.community.dao.elasticsearch.DiscussPostRepository.
+2021-08-25 00:24:38,900 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:182] Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2021-08-25 00:24:39,248 INFO [restartedMain] c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor [EnableEncryptablePropertiesBeanFactoryPostProcessor.java:48] Post-processing PropertySource instances
+2021-08-25 00:24:39,297 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2021-08-25 00:24:39,297 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-08-25 00:24:39,297 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-08-25 00:24:39,298 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-08-25 00:24:39,299 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2021-08-25 00:24:39,299 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2021-08-25 00:24:39,299 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-08-25 00:24:39,299 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-08-25 00:24:39,325 INFO [restartedMain] c.u.j.f.DefaultLazyPropertyFilter [DefaultLazyPropertyFilter.java:34] Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2021-08-25 00:24:39,350 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$88381d30] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-25 00:24:39,388 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b4860bad] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-25 00:24:39,513 INFO [restartedMain] c.u.j.r.DefaultLazyPropertyResolver [DefaultLazyPropertyResolver.java:35] Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2021-08-25 00:24:39,514 INFO [restartedMain] c.u.j.d.DefaultLazyPropertyDetector [DefaultLazyPropertyDetector.java:33] Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2021-08-25 00:24:39,883 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
+2021-08-25 00:24:39,898 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-25 00:24:39,909 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2021-08-25 00:24:39,909 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2021-08-25 00:24:40,025 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2021-08-25 00:24:40,025 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 1812 ms
+2021-08-25 00:24:41,261 INFO [restartedMain] o.e.p.PluginsService [PluginsService.java:190] no modules loaded
+2021-08-25 00:24:41,262 INFO [restartedMain] o.e.p.PluginsService [PluginsService.java:193] loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2021-08-25 00:24:41,263 INFO [restartedMain] o.e.p.PluginsService [PluginsService.java:193] loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2021-08-25 00:24:41,263 INFO [restartedMain] o.e.p.PluginsService [PluginsService.java:193] loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2021-08-25 00:24:41,263 INFO [restartedMain] o.e.p.PluginsService [PluginsService.java:193] loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2021-08-25 00:24:41,263 INFO [restartedMain] o.e.p.PluginsService [PluginsService.java:193] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2021-08-25 00:24:42,649 INFO [restartedMain] o.s.d.e.c.TransportClientFactoryBean [TransportClientFactoryBean.java:88] Adding transport node : 127.0.0.1:9300
+2021-08-25 00:24:45,590 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
+2021-08-25 00:24:45,828 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-25 00:24:45,951 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2021-08-25 00:24:46,645 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2021-08-25 00:24:46,732 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2021-08-25 00:24:46,788 INFO [restartedMain] o.q.i.StdSchedulerFactory [StdSchedulerFactory.java:1208] Using default implementation for ThreadExecutor
+2021-08-25 00:24:46,796 INFO [restartedMain] o.q.c.SchedulerSignalerImpl [SchedulerSignalerImpl.java:61] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-08-25 00:24:46,796 INFO [restartedMain] o.q.c.QuartzScheduler [QuartzScheduler.java:229] Quartz Scheduler v.2.3.1 created.
+2021-08-25 00:24:46,800 INFO [restartedMain] o.s.s.q.LocalDataSourceJobStore [JobStoreSupport.java:672] Using db table-based data access locking (synchronization).
+2021-08-25 00:24:46,801 INFO [restartedMain] o.s.s.q.LocalDataSourceJobStore [JobStoreCMT.java:145] JobStoreCMT initialized.
+2021-08-25 00:24:46,802 INFO [restartedMain] o.q.c.QuartzScheduler [QuartzScheduler.java:294] Scheduler meta-data: Quartz Scheduler (v2.3.1) 'communityScheduler' with instanceId 'Eloim-Essaim1629822286789'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2021-08-25 00:24:46,802 INFO [restartedMain] o.q.i.StdSchedulerFactory [StdSchedulerFactory.java:1362] Quartz scheduler 'communityScheduler' initialized from an externally provided properties instance.
+2021-08-25 00:24:46,802 INFO [restartedMain] o.q.i.StdSchedulerFactory [StdSchedulerFactory.java:1366] Quartz scheduler version: 2.3.1
+2021-08-25 00:24:46,802 INFO [restartedMain] o.q.c.QuartzScheduler [QuartzScheduler.java:2293] JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@2daf677a
+2021-08-25 00:24:46,915 INFO [restartedMain] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [UserDetailsServiceAutoConfiguration.java:87] 
+
+Using generated security password: 35f46d98-53dc-473a-a1bb-318099938d4a
+
+2021-08-25 00:24:46,966 INFO [restartedMain] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:43] Creating filter chain: Ant [pattern='/resources/**'], []
+2021-08-25 00:24:47,019 INFO [restartedMain] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:43] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1b2f36c9, org.springframework.security.web.context.SecurityContextPersistenceFilter@3f5da49, org.springframework.security.web.header.HeaderWriterFilter@3f6341b1, org.springframework.security.web.authentication.logout.LogoutFilter@4fe0dea8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@72d9610e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@786198ec, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3a4b03d6, org.springframework.security.web.session.SessionManagementFilter@6497ac4f, org.springframework.security.web.access.ExceptionTranslationFilter@6b347f08, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@318aafc9]
+2021-08-25 00:24:47,189 INFO [restartedMain] o.a.k.c.c.ConsumerConfig [AbstractConfig.java:279] ConsumerConfig values: 
+	auto.commit.interval.ms = 3000
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.42.3:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = eloim-consumer-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2021-08-25 00:24:47,227 INFO [restartedMain] o.a.k.c.u.AppInfoParser [AppInfoParser.java:109] Kafka version : 2.0.1
+2021-08-25 00:24:47,227 INFO [restartedMain] o.a.k.c.u.AppInfoParser [AppInfoParser.java:110] Kafka commitId : fa14705e51bd2ce5
+2021-08-25 00:24:47,327 INFO [restartedMain] o.a.k.c.Metadata [Metadata.java:285] Cluster ID: OzG0GF-lRxG0bYxy19qLiA
+2021-08-25 00:25:47,312 INFO [restartedMain] o.s.s.q.SchedulerFactoryBean [SchedulerFactoryBean.java:844] Shutting down Quartz Scheduler
+2021-08-25 00:25:47,313 INFO [restartedMain] o.q.c.QuartzScheduler [QuartzScheduler.java:666] Scheduler communityScheduler_$_Eloim-Essaim1629822286789 shutting down.
+2021-08-25 00:25:47,313 INFO [restartedMain] o.q.c.QuartzScheduler [QuartzScheduler.java:585] Scheduler communityScheduler_$_Eloim-Essaim1629822286789 paused.
+2021-08-25 00:25:47,313 INFO [restartedMain] o.q.c.QuartzScheduler [QuartzScheduler.java:740] Scheduler communityScheduler_$_Eloim-Essaim1629822286789 shutdown complete.
+2021-08-25 00:25:47,316 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-08-25 00:25:48,335 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:350] HikariPool-1 - Shutdown initiated...
+2021-08-25 00:25:48,340 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:352] HikariPool-1 - Shutdown completed.
+2021-08-25 00:25:48,342 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Stopping service [Tomcat]
+2021-08-25 00:25:48,351 INFO [restartedMain] o.s.b.a.l.ConditionEvaluationReportLoggingListener [ConditionEvaluationReportLoggingListener.java:142] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-08-25 00:28:56,971 INFO [restartedMain] c.e.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on Eloim-Essaim with PID 20564 (D:\Study\Community\target\classes started by Eloim in D:\Study\Community)
+2021-08-25 00:28:56,973 INFO [restartedMain] c.e.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2021-08-25 00:28:57,028 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-25 00:28:57,028 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:227] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-25 00:28:57,606 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-25 00:28:57,608 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-08-25 00:28:57,659 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:182] Finished Spring Data repository scanning in 47ms. Found 1 repository interfaces.
+2021-08-25 00:28:57,668 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-25 00:28:57,669 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-08-25 00:28:57,682 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationExtensionSupport [RepositoryConfigurationExtensionSupport.java:363] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.eloim.community.dao.elasticsearch.DiscussPostRepository.
+2021-08-25 00:28:57,682 INFO [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:182] Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2021-08-25 00:28:57,958 INFO [restartedMain] c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor [EnableEncryptablePropertiesBeanFactoryPostProcessor.java:48] Post-processing PropertySource instances
+2021-08-25 00:28:58,002 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2021-08-25 00:28:58,002 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-08-25 00:28:58,002 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-08-25 00:28:58,002 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-08-25 00:28:58,003 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2021-08-25 00:28:58,003 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2021-08-25 00:28:58,004 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-08-25 00:28:58,004 INFO [restartedMain] c.u.j.EncryptablePropertySourceConverter [EncryptablePropertySourceConverter.java:41] Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-08-25 00:28:58,022 INFO [restartedMain] c.u.j.f.DefaultLazyPropertyFilter [DefaultLazyPropertyFilter.java:34] Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2021-08-25 00:28:58,045 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$1f9d5195] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-25 00:28:58,082 INFO [restartedMain] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4beb4012] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-25 00:28:58,201 INFO [restartedMain] c.u.j.r.DefaultLazyPropertyResolver [DefaultLazyPropertyResolver.java:35] Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2021-08-25 00:28:58,203 INFO [restartedMain] c.u.j.d.DefaultLazyPropertyDetector [DefaultLazyPropertyDetector.java:33] Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2021-08-25 00:28:58,568 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
+2021-08-25 00:28:58,581 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-25 00:28:58,588 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2021-08-25 00:28:58,589 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2021-08-25 00:28:58,719 INFO [restartedMain] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2021-08-25 00:28:58,719 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 1691 ms
+2021-08-25 00:28:59,868 INFO [restartedMain] o.e.p.PluginsService [PluginsService.java:190] no modules loaded
+2021-08-25 00:28:59,869 INFO [restartedMain] o.e.p.PluginsService [PluginsService.java:193] loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2021-08-25 00:28:59,870 INFO [restartedMain] o.e.p.PluginsService [PluginsService.java:193] loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2021-08-25 00:28:59,870 INFO [restartedMain] o.e.p.PluginsService [PluginsService.java:193] loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2021-08-25 00:28:59,870 INFO [restartedMain] o.e.p.PluginsService [PluginsService.java:193] loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2021-08-25 00:28:59,870 INFO [restartedMain] o.e.p.PluginsService [PluginsService.java:193] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2021-08-25 00:29:00,976 INFO [restartedMain] o.s.d.e.c.TransportClientFactoryBean [TransportClientFactoryBean.java:88] Adding transport node : 127.0.0.1:9300
+2021-08-25 00:29:03,938 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
+2021-08-25 00:29:04,151 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-25 00:29:04,256 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2021-08-25 00:29:04,927 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2021-08-25 00:29:05,012 INFO [restartedMain] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2021-08-25 00:29:05,071 INFO [restartedMain] o.q.i.StdSchedulerFactory [StdSchedulerFactory.java:1208] Using default implementation for ThreadExecutor
+2021-08-25 00:29:05,079 INFO [restartedMain] o.q.c.SchedulerSignalerImpl [SchedulerSignalerImpl.java:61] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-08-25 00:29:05,080 INFO [restartedMain] o.q.c.QuartzScheduler [QuartzScheduler.java:229] Quartz Scheduler v.2.3.1 created.
+2021-08-25 00:29:05,083 INFO [restartedMain] o.s.s.q.LocalDataSourceJobStore [JobStoreSupport.java:672] Using db table-based data access locking (synchronization).
+2021-08-25 00:29:05,084 INFO [restartedMain] o.s.s.q.LocalDataSourceJobStore [JobStoreCMT.java:145] JobStoreCMT initialized.
+2021-08-25 00:29:05,085 INFO [restartedMain] o.q.c.QuartzScheduler [QuartzScheduler.java:294] Scheduler meta-data: Quartz Scheduler (v2.3.1) 'communityScheduler' with instanceId 'Eloim-Essaim1629822545072'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2021-08-25 00:29:05,085 INFO [restartedMain] o.q.i.StdSchedulerFactory [StdSchedulerFactory.java:1362] Quartz scheduler 'communityScheduler' initialized from an externally provided properties instance.
+2021-08-25 00:29:05,085 INFO [restartedMain] o.q.i.StdSchedulerFactory [StdSchedulerFactory.java:1366] Quartz scheduler version: 2.3.1
+2021-08-25 00:29:05,085 INFO [restartedMain] o.q.c.QuartzScheduler [QuartzScheduler.java:2293] JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@4a3486bb
+2021-08-25 00:29:05,206 INFO [restartedMain] o.s.b.a.s.s.UserDetailsServiceAutoConfiguration [UserDetailsServiceAutoConfiguration.java:87] 
+
+Using generated security password: 5bc24d31-be89-46bb-99a0-3a2eaaa5ce71
+
+2021-08-25 00:29:05,254 INFO [restartedMain] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:43] Creating filter chain: Ant [pattern='/resources/**'], []
+2021-08-25 00:29:05,286 INFO [restartedMain] o.s.s.w.DefaultSecurityFilterChain [DefaultSecurityFilterChain.java:43] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@28a174c0, org.springframework.security.web.context.SecurityContextPersistenceFilter@4ac088f, org.springframework.security.web.header.HeaderWriterFilter@503e6d12, org.springframework.security.web.authentication.logout.LogoutFilter@2cac5b50, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@519b4f8a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2f83397e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7ba48be0, org.springframework.security.web.session.SessionManagementFilter@41c96426, org.springframework.security.web.access.ExceptionTranslationFilter@383a0979, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@47d0f783]
+2021-08-25 00:29:05,447 INFO [restartedMain] o.a.k.c.c.ConsumerConfig [AbstractConfig.java:279] ConsumerConfig values: 
+	auto.commit.interval.ms = 3000
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.42.3:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = eloim-consumer-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2021-08-25 00:29:05,479 INFO [restartedMain] o.a.k.c.u.AppInfoParser [AppInfoParser.java:109] Kafka version : 2.0.1
+2021-08-25 00:29:05,480 INFO [restartedMain] o.a.k.c.u.AppInfoParser [AppInfoParser.java:110] Kafka commitId : fa14705e51bd2ce5
+2021-08-25 00:29:05,569 INFO [restartedMain] o.a.k.c.Metadata [Metadata.java:285] Cluster ID: OzG0GF-lRxG0bYxy19qLiA
+2021-08-25 00:29:05,590 INFO [restartedMain] o.a.k.c.c.ConsumerConfig [AbstractConfig.java:279] ConsumerConfig values: 
+	auto.commit.interval.ms = 3000
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.42.3:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = eloim-consumer-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2021-08-25 00:29:05,594 INFO [restartedMain] o.a.k.c.u.AppInfoParser [AppInfoParser.java:109] Kafka version : 2.0.1
+2021-08-25 00:29:05,594 INFO [restartedMain] o.a.k.c.u.AppInfoParser [AppInfoParser.java:110] Kafka commitId : fa14705e51bd2ce5
+2021-08-25 00:29:05,596 INFO [restartedMain] o.s.s.c.ThreadPoolTaskScheduler [ExecutorConfigurationSupport.java:171] Initializing ExecutorService
+2021-08-25 00:29:05,608 INFO [restartedMain] o.a.k.c.c.ConsumerConfig [AbstractConfig.java:279] ConsumerConfig values: 
+	auto.commit.interval.ms = 3000
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.42.3:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = eloim-consumer-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2021-08-25 00:29:05,613 INFO [restartedMain] o.a.k.c.u.AppInfoParser [AppInfoParser.java:109] Kafka version : 2.0.1
+2021-08-25 00:29:05,613 INFO [restartedMain] o.a.k.c.u.AppInfoParser [AppInfoParser.java:110] Kafka commitId : fa14705e51bd2ce5
+2021-08-25 00:29:05,617 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.k.c.Metadata [Metadata.java:285] Cluster ID: OzG0GF-lRxG0bYxy19qLiA
+2021-08-25 00:29:05,618 INFO [restartedMain] o.a.k.c.Metadata [Metadata.java:285] Cluster ID: OzG0GF-lRxG0bYxy19qLiA
+2021-08-25 00:29:06,838 INFO [restartedMain] o.a.k.c.c.ConsumerConfig [AbstractConfig.java:279] ConsumerConfig values: 
+	auto.commit.interval.ms = 3000
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.42.3:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = eloim-consumer-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2021-08-25 00:29:06,842 INFO [restartedMain] o.a.k.c.u.AppInfoParser [AppInfoParser.java:109] Kafka version : 2.0.1
+2021-08-25 00:29:06,842 INFO [restartedMain] o.a.k.c.u.AppInfoParser [AppInfoParser.java:110] Kafka commitId : fa14705e51bd2ce5
+2021-08-25 00:29:06,843 INFO [restartedMain] o.s.s.c.ThreadPoolTaskScheduler [ExecutorConfigurationSupport.java:171] Initializing ExecutorService
+2021-08-25 00:29:06,844 INFO [restartedMain] o.a.k.c.c.ConsumerConfig [AbstractConfig.java:279] ConsumerConfig values: 
+	auto.commit.interval.ms = 3000
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.42.3:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = eloim-consumer-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2021-08-25 00:29:06,849 INFO [restartedMain] o.a.k.c.u.AppInfoParser [AppInfoParser.java:109] Kafka version : 2.0.1
+2021-08-25 00:29:06,850 INFO [restartedMain] o.a.k.c.u.AppInfoParser [AppInfoParser.java:110] Kafka commitId : fa14705e51bd2ce5
+2021-08-25 00:29:06,859 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.Metadata [Metadata.java:285] Cluster ID: OzG0GF-lRxG0bYxy19qLiA
+2021-08-25 00:29:06,860 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.k.c.c.i.AbstractCoordinator [AbstractCoordinator.java:677] [Consumer clientId=consumer-2, groupId=eloim-consumer-group] Discovered group coordinator 192.168.42.3:9092 (id: 2147483647 rack: null)
+2021-08-25 00:29:06,864 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.k.c.c.i.ConsumerCoordinator [ConsumerCoordinator.java:472] [Consumer clientId=consumer-2, groupId=eloim-consumer-group] Revoking previously assigned partitions []
+2021-08-25 00:29:06,865 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.s.k.l.KafkaMessageListenerContainer [AbstractMessageListenerContainer.java:375] partitions revoked: []
+2021-08-25 00:29:06,865 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.k.c.c.i.AbstractCoordinator [AbstractCoordinator.java:509] [Consumer clientId=consumer-2, groupId=eloim-consumer-group] (Re-)joining group
+2021-08-25 00:29:06,872 INFO [restartedMain] o.a.k.c.Metadata [Metadata.java:285] Cluster ID: OzG0GF-lRxG0bYxy19qLiA
+2021-08-25 00:29:06,879 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.AbstractCoordinator [AbstractCoordinator.java:677] [Consumer clientId=consumer-4, groupId=eloim-consumer-group] Discovered group coordinator 192.168.42.3:9092 (id: 2147483647 rack: null)
+2021-08-25 00:29:06,880 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.ConsumerCoordinator [ConsumerCoordinator.java:472] [Consumer clientId=consumer-4, groupId=eloim-consumer-group] Revoking previously assigned partitions []
+2021-08-25 00:29:06,881 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer [AbstractMessageListenerContainer.java:375] partitions revoked: []
+2021-08-25 00:29:06,881 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.AbstractCoordinator [AbstractCoordinator.java:509] [Consumer clientId=consumer-4, groupId=eloim-consumer-group] (Re-)joining group
+2021-08-25 00:29:07,038 INFO [restartedMain] o.a.k.c.c.ConsumerConfig [AbstractConfig.java:279] ConsumerConfig values: 
+	auto.commit.interval.ms = 3000
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.42.3:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = eloim-consumer-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2021-08-25 00:29:07,041 INFO [restartedMain] o.a.k.c.u.AppInfoParser [AppInfoParser.java:109] Kafka version : 2.0.1
+2021-08-25 00:29:07,041 INFO [restartedMain] o.a.k.c.u.AppInfoParser [AppInfoParser.java:110] Kafka commitId : fa14705e51bd2ce5
+2021-08-25 00:29:07,041 INFO [restartedMain] o.s.s.c.ThreadPoolTaskScheduler [ExecutorConfigurationSupport.java:171] Initializing ExecutorService
+2021-08-25 00:29:07,042 INFO [restartedMain] o.s.s.q.SchedulerFactoryBean [SchedulerFactoryBean.java:726] Starting Quartz Scheduler now
+2021-08-25 00:29:07,055 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.Metadata [Metadata.java:285] Cluster ID: OzG0GF-lRxG0bYxy19qLiA
+2021-08-25 00:29:07,058 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.i.AbstractCoordinator [AbstractCoordinator.java:677] [Consumer clientId=consumer-6, groupId=eloim-consumer-group] Discovered group coordinator 192.168.42.3:9092 (id: 2147483647 rack: null)
+2021-08-25 00:29:07,059 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.i.ConsumerCoordinator [ConsumerCoordinator.java:472] [Consumer clientId=consumer-6, groupId=eloim-consumer-group] Revoking previously assigned partitions []
+2021-08-25 00:29:07,059 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.s.k.l.KafkaMessageListenerContainer [AbstractMessageListenerContainer.java:375] partitions revoked: []
+2021-08-25 00:29:07,060 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.i.AbstractCoordinator [AbstractCoordinator.java:509] [Consumer clientId=consumer-6, groupId=eloim-consumer-group] (Re-)joining group
+2021-08-25 00:29:07,067 INFO [restartedMain] o.q.c.QuartzScheduler [QuartzScheduler.java:547] Scheduler communityScheduler_$_Eloim-Essaim1629822545072 started.
+2021-08-25 00:29:07,074 INFO [QuartzScheduler_communityScheduler-Eloim-Essaim1629822545072_MisfireHandler] o.s.s.q.LocalDataSourceJobStore [JobStoreSupport.java:973] Handling 1 trigger(s) that missed their scheduled fire-time.
+2021-08-25 00:29:07,082 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2021-08-25 00:29:07,083 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.AbstractCoordinator [AbstractCoordinator.java:473] [Consumer clientId=consumer-4, groupId=eloim-consumer-group] Successfully joined group with generation 1
+2021-08-25 00:29:07,087 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.ConsumerCoordinator [ConsumerCoordinator.java:280] [Consumer clientId=consumer-4, groupId=eloim-consumer-group] Setting newly assigned partitions [comment-0, like-0, follow-0]
+2021-08-25 00:29:07,089 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.k.c.c.i.AbstractCoordinator [AbstractCoordinator.java:473] [Consumer clientId=consumer-2, groupId=eloim-consumer-group] Successfully joined group with generation 1
+2021-08-25 00:29:07,090 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.k.c.c.i.ConsumerCoordinator [ConsumerCoordinator.java:280] [Consumer clientId=consumer-2, groupId=eloim-consumer-group] Setting newly assigned partitions [publish-0]
+2021-08-25 00:29:07,105 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-25 00:29:07,109 INFO [restartedMain] c.e.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 10.507 seconds (JVM running for 11.66)
+2021-08-25 00:29:07,120 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.Fetcher [Fetcher.java:601] [Consumer clientId=consumer-4, groupId=eloim-consumer-group] Resetting offset for partition comment-0 to offset 0.
+2021-08-25 00:29:07,120 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.k.c.c.i.Fetcher [Fetcher.java:601] [Consumer clientId=consumer-2, groupId=eloim-consumer-group] Resetting offset for partition publish-0 to offset 0.
+2021-08-25 00:29:07,121 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.Fetcher [Fetcher.java:601] [Consumer clientId=consumer-4, groupId=eloim-consumer-group] Resetting offset for partition like-0 to offset 0.
+2021-08-25 00:29:07,121 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.Fetcher [Fetcher.java:601] [Consumer clientId=consumer-4, groupId=eloim-consumer-group] Resetting offset for partition follow-0 to offset 0.
+2021-08-25 00:29:07,121 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.s.k.l.KafkaMessageListenerContainer [AbstractMessageListenerContainer.java:380] partitions assigned: [publish-0]
+2021-08-25 00:29:07,121 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer [AbstractMessageListenerContainer.java:380] partitions assigned: [comment-0, like-0, follow-0]
+2021-08-25 00:29:10,090 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.AbstractCoordinator [AbstractCoordinator.java:855] [Consumer clientId=consumer-4, groupId=eloim-consumer-group] Attempt to heartbeat failed since group is rebalancing
+2021-08-25 00:29:10,096 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.k.c.c.i.AbstractCoordinator [AbstractCoordinator.java:855] [Consumer clientId=consumer-2, groupId=eloim-consumer-group] Attempt to heartbeat failed since group is rebalancing
+2021-08-25 00:29:10,117 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.ConsumerCoordinator [ConsumerCoordinator.java:472] [Consumer clientId=consumer-4, groupId=eloim-consumer-group] Revoking previously assigned partitions [comment-0, like-0, follow-0]
+2021-08-25 00:29:10,117 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.k.c.c.i.ConsumerCoordinator [ConsumerCoordinator.java:472] [Consumer clientId=consumer-2, groupId=eloim-consumer-group] Revoking previously assigned partitions [publish-0]
+2021-08-25 00:29:10,117 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.s.k.l.KafkaMessageListenerContainer [AbstractMessageListenerContainer.java:375] partitions revoked: [publish-0]
+2021-08-25 00:29:10,117 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer [AbstractMessageListenerContainer.java:375] partitions revoked: [comment-0, like-0, follow-0]
+2021-08-25 00:29:10,117 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.k.c.c.i.AbstractCoordinator [AbstractCoordinator.java:509] [Consumer clientId=consumer-2, groupId=eloim-consumer-group] (Re-)joining group
+2021-08-25 00:29:10,118 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.AbstractCoordinator [AbstractCoordinator.java:509] [Consumer clientId=consumer-4, groupId=eloim-consumer-group] (Re-)joining group
+2021-08-25 00:29:10,314 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.i.AbstractCoordinator [AbstractCoordinator.java:473] [Consumer clientId=consumer-6, groupId=eloim-consumer-group] Successfully joined group with generation 2
+2021-08-25 00:29:10,314 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.i.ConsumerCoordinator [ConsumerCoordinator.java:280] [Consumer clientId=consumer-6, groupId=eloim-consumer-group] Setting newly assigned partitions [delete-0]
+2021-08-25 00:29:10,315 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.AbstractCoordinator [AbstractCoordinator.java:473] [Consumer clientId=consumer-4, groupId=eloim-consumer-group] Successfully joined group with generation 2
+2021-08-25 00:29:10,315 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.k.c.c.i.AbstractCoordinator [AbstractCoordinator.java:473] [Consumer clientId=consumer-2, groupId=eloim-consumer-group] Successfully joined group with generation 2
+2021-08-25 00:29:10,316 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.ConsumerCoordinator [ConsumerCoordinator.java:280] [Consumer clientId=consumer-4, groupId=eloim-consumer-group] Setting newly assigned partitions [comment-0, like-0, follow-0]
+2021-08-25 00:29:10,316 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.k.c.c.i.ConsumerCoordinator [ConsumerCoordinator.java:280] [Consumer clientId=consumer-2, groupId=eloim-consumer-group] Setting newly assigned partitions [publish-0]
+2021-08-25 00:29:10,321 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.s.k.l.KafkaMessageListenerContainer [AbstractMessageListenerContainer.java:380] partitions assigned: [publish-0]
+2021-08-25 00:29:10,321 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer [AbstractMessageListenerContainer.java:380] partitions assigned: [comment-0, like-0, follow-0]
+2021-08-25 00:29:10,327 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.i.Fetcher [Fetcher.java:601] [Consumer clientId=consumer-6, groupId=eloim-consumer-group] Resetting offset for partition delete-0 to offset 0.
+2021-08-25 00:29:10,328 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.s.k.l.KafkaMessageListenerContainer [AbstractMessageListenerContainer.java:380] partitions assigned: [delete-0]
+2021-08-25 00:30:52,444 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-25 00:30:52,444 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:524] Initializing Servlet 'dispatcherServlet'
+2021-08-25 00:30:52,454 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:546] Completed initialization in 9 ms
+2021-08-25 00:30:52,483 INFO [http-nio-8080-exec-1] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:30:52], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:30:52,568 INFO [http-nio-8080-exec-1] i.l.c.EpollProvider [Netty4InternalESLogger.java:104] Starting without optional epoll library
+2021-08-25 00:30:52,569 INFO [http-nio-8080-exec-1] i.l.c.KqueueProvider [Netty4InternalESLogger.java:104] Starting without optional kqueue library
+2021-08-25 00:30:52,637 INFO [http-nio-8080-exec-1] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:30:52], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:30:52,659 INFO [http-nio-8080-exec-1] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:30:52], 访问了[com.eloim.community.service.DiscussPostService.findDiscussPostRows].
+2021-08-25 00:30:52,710 INFO [http-nio-8080-exec-1] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:30:52], 访问了[com.eloim.community.service.DiscussPostService.findDiscussPosts].
+2021-08-25 00:31:13,478 INFO [http-nio-8080-exec-9] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:31:13], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:31:30,336 INFO [http-nio-8080-exec-10] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:31:30], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:31:30,348 INFO [http-nio-8080-exec-10] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:31:30], 访问了[com.eloim.community.service.UserService.register].
+2021-08-25 00:31:40,206 INFO [http-nio-8080-exec-7] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:31:40], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:31:40,207 INFO [http-nio-8080-exec-7] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:31:40], 访问了[com.eloim.community.service.DiscussPostService.findDiscussPostRows].
+2021-08-25 00:31:40,208 INFO [http-nio-8080-exec-7] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:31:40], 访问了[com.eloim.community.service.DiscussPostService.findDiscussPosts].
+2021-08-25 00:31:58,010 INFO [http-nio-8080-exec-4] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:31:58], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:31:58,053 INFO [http-nio-8080-exec-1] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:31:58], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:32:09,674 INFO [http-nio-8080-exec-6] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:32:09], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:32:09,714 INFO [http-nio-8080-exec-6] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:32:09], 访问了[com.eloim.community.service.UserService.login].
+2021-08-25 00:32:09,753 INFO [http-nio-8080-exec-7] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:32:09], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:32:15,138 INFO [http-nio-8080-exec-1] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:32:15], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:32:15,142 INFO [http-nio-8080-exec-1] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:32:15], 访问了[com.eloim.community.service.UserService.activation].
+2021-08-25 00:32:19,608 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:32:19], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:32:19,635 INFO [http-nio-8080-exec-1] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:32:19], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:32:22,591 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:32:22], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:32:23,608 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:32:23], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:32:23,672 INFO [http-nio-8080-exec-2] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:32:23], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:32:24,696 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:32:24], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:32:32,741 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:32:32], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:32:32,745 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:32:32], 访问了[com.eloim.community.service.UserService.login].
+2021-08-25 00:32:32,787 INFO [http-nio-8080-exec-9] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:32:32], 访问了[com.eloim.community.service.UserService.findLoginTicket].
+2021-08-25 00:32:32,802 INFO [http-nio-8080-exec-9] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:32:32], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:32:32,806 INFO [http-nio-8080-exec-9] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:32:32], 访问了[com.eloim.community.service.UserService.getAuthorities].
+2021-08-25 00:32:32,809 INFO [http-nio-8080-exec-9] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:32:32], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:32:32,811 INFO [http-nio-8080-exec-9] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:32:32], 访问了[com.eloim.community.service.DataService.recordDAU].
+2021-08-25 00:32:32,813 INFO [http-nio-8080-exec-9] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:32:32], 访问了[com.eloim.community.service.DiscussPostService.findDiscussPostRows].
+2021-08-25 00:32:32,813 INFO [http-nio-8080-exec-9] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:32:32], 访问了[com.eloim.community.service.DiscussPostService.findDiscussPosts].
+2021-08-25 00:32:32,816 INFO [http-nio-8080-exec-9] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:32:32], 访问了[com.eloim.community.service.MessageService.findLetterUnreadCount].
+2021-08-25 00:32:32,823 INFO [http-nio-8080-exec-9] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:32:32], 访问了[com.eloim.community.service.MessageService.findNoticeUnReadCount].
+2021-08-25 00:32:39,018 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:32:39], 访问了[com.eloim.community.service.UserService.findLoginTicket].
+2021-08-25 00:32:39,021 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:32:39], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:32:39,022 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:32:39], 访问了[com.eloim.community.service.UserService.getAuthorities].
+2021-08-25 00:32:39,023 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:32:39], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:32:39,023 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:32:39], 访问了[com.eloim.community.service.DataService.recordDAU].
+2021-08-25 00:32:39,024 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:32:39], 访问了[com.eloim.community.service.MessageService.findLetterUnreadCount].
+2021-08-25 00:32:39,026 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:32:39], 访问了[com.eloim.community.service.MessageService.findNoticeUnReadCount].
+2021-08-25 00:32:50,802 INFO [communityScheduler_Worker-1] c.e.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:58] [任务取消] 没有需要刷新的帖子
+2021-08-25 00:33:18,286 INFO [http-nio-8080-exec-9] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:33:18], 访问了[com.eloim.community.service.UserService.findLoginTicket].
+2021-08-25 00:33:18,288 INFO [http-nio-8080-exec-9] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:33:18], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:33:18,289 INFO [http-nio-8080-exec-9] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:33:18], 访问了[com.eloim.community.service.UserService.getAuthorities].
+2021-08-25 00:33:18,290 INFO [http-nio-8080-exec-9] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:33:18], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:33:18,291 INFO [http-nio-8080-exec-9] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:33:18], 访问了[com.eloim.community.service.DataService.recordDAU].
+2021-08-25 00:33:18,292 INFO [http-nio-8080-exec-9] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:33:18], 访问了[com.eloim.community.service.DiscussPostService.addDiscussPost].
+2021-08-25 00:33:18,368 INFO [http-nio-8080-exec-9] o.a.k.c.p.ProducerConfig [AbstractConfig.java:279] ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [192.168.42.3:9092]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 0
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2021-08-25 00:33:18,380 INFO [http-nio-8080-exec-9] o.a.k.c.u.AppInfoParser [AppInfoParser.java:109] Kafka version : 2.0.1
+2021-08-25 00:33:18,380 INFO [http-nio-8080-exec-9] o.a.k.c.u.AppInfoParser [AppInfoParser.java:110] Kafka commitId : fa14705e51bd2ce5
+2021-08-25 00:33:18,385 INFO [kafka-producer-network-thread | producer-1] o.a.k.c.Metadata [Metadata.java:285] Cluster ID: OzG0GF-lRxG0bYxy19qLiA
+2021-08-25 00:33:20,421 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:33:20], 访问了[com.eloim.community.service.UserService.findLoginTicket].
+2021-08-25 00:33:20,423 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:33:20], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:33:20,425 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:33:20], 访问了[com.eloim.community.service.UserService.getAuthorities].
+2021-08-25 00:33:20,426 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:33:20], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:33:20,427 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:33:20], 访问了[com.eloim.community.service.DataService.recordDAU].
+2021-08-25 00:33:20,428 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:33:20], 访问了[com.eloim.community.service.DiscussPostService.findDiscussPostRows].
+2021-08-25 00:33:20,429 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:33:20], 访问了[com.eloim.community.service.DiscussPostService.findDiscussPosts].
+2021-08-25 00:33:20,433 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:33:20], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:33:20,434 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:33:20], 访问了[com.eloim.community.service.LikeService.findEntityLikeCount].
+2021-08-25 00:33:20,440 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:33:20], 访问了[com.eloim.community.service.MessageService.findLetterUnreadCount].
+2021-08-25 00:33:20,443 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:33:20], 访问了[com.eloim.community.service.MessageService.findNoticeUnReadCount].
+2021-08-25 00:33:24,558 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:33:24], 访问了[com.eloim.community.service.UserService.findLoginTicket].
+2021-08-25 00:33:24,559 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:33:24], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:33:24,562 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:33:24], 访问了[com.eloim.community.service.UserService.getAuthorities].
+2021-08-25 00:33:24,563 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:33:24], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:33:24,564 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:33:24], 访问了[com.eloim.community.service.DataService.recordDAU].
+2021-08-25 00:33:24,565 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:33:24], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:33:24,566 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:33:24], 访问了[com.eloim.community.service.LikeService.findUserLikeCount].
+2021-08-25 00:33:24,567 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:33:24], 访问了[com.eloim.community.service.FollowService.findFolloweeCount].
+2021-08-25 00:33:24,573 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:33:24], 访问了[com.eloim.community.service.FollowService.findFollowerCount].
+2021-08-25 00:33:24,573 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:33:24], 访问了[com.eloim.community.service.FollowService.hasFollowed].
+2021-08-25 00:33:24,575 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:33:24], 访问了[com.eloim.community.service.MessageService.findLetterUnreadCount].
+2021-08-25 00:33:24,576 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:33:24], 访问了[com.eloim.community.service.MessageService.findNoticeUnReadCount].
+2021-08-25 00:33:30,746 INFO [http-nio-8080-exec-4] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:33:30], 访问了[com.eloim.community.service.UserService.findLoginTicket].
+2021-08-25 00:33:30,747 INFO [http-nio-8080-exec-4] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:33:30], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:33:30,751 INFO [http-nio-8080-exec-4] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:33:30], 访问了[com.eloim.community.service.UserService.getAuthorities].
+2021-08-25 00:33:30,752 INFO [http-nio-8080-exec-4] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:33:30], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:33:30,754 INFO [http-nio-8080-exec-4] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:33:30], 访问了[com.eloim.community.service.DataService.recordDAU].
+2021-08-25 00:33:30,755 INFO [http-nio-8080-exec-4] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:33:30], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:33:30,756 INFO [http-nio-8080-exec-4] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:33:30], 访问了[com.eloim.community.service.LikeService.findUserLikeCount].
+2021-08-25 00:33:30,756 INFO [http-nio-8080-exec-4] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:33:30], 访问了[com.eloim.community.service.FollowService.findFolloweeCount].
+2021-08-25 00:33:30,757 INFO [http-nio-8080-exec-4] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:33:30], 访问了[com.eloim.community.service.FollowService.findFollowerCount].
+2021-08-25 00:33:30,758 INFO [http-nio-8080-exec-4] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:33:30], 访问了[com.eloim.community.service.FollowService.hasFollowed].
+2021-08-25 00:33:30,759 INFO [http-nio-8080-exec-4] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:33:30], 访问了[com.eloim.community.service.MessageService.findLetterUnreadCount].
+2021-08-25 00:33:30,760 INFO [http-nio-8080-exec-4] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:33:30], 访问了[com.eloim.community.service.MessageService.findNoticeUnReadCount].
+2021-08-25 00:33:33,423 INFO [http-nio-8080-exec-10] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:33:33], 访问了[com.eloim.community.service.UserService.findLoginTicket].
+2021-08-25 00:33:33,425 INFO [http-nio-8080-exec-10] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:33:33], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:33:33,427 INFO [http-nio-8080-exec-10] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:33:33], 访问了[com.eloim.community.service.UserService.getAuthorities].
+2021-08-25 00:33:33,429 INFO [http-nio-8080-exec-10] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:33:33], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:33:33,429 INFO [http-nio-8080-exec-10] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:33:33], 访问了[com.eloim.community.service.DataService.recordDAU].
+2021-08-25 00:33:33,429 INFO [http-nio-8080-exec-10] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:33:33], 访问了[com.eloim.community.service.MessageService.findLetterUnreadCount].
+2021-08-25 00:33:33,431 INFO [http-nio-8080-exec-10] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:33:33], 访问了[com.eloim.community.service.MessageService.findNoticeUnReadCount].
+2021-08-25 00:35:27,570 INFO [http-nio-8080-exec-2] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:27], 访问了[com.eloim.community.service.UserService.findLoginTicket].
+2021-08-25 00:35:27,571 INFO [http-nio-8080-exec-2] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:27], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:35:27,572 INFO [http-nio-8080-exec-2] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:27], 访问了[com.eloim.community.service.UserService.getAuthorities].
+2021-08-25 00:35:27,573 INFO [http-nio-8080-exec-2] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:27], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:35:27,573 INFO [http-nio-8080-exec-2] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:27], 访问了[com.eloim.community.service.DataService.recordDAU].
+2021-08-25 00:35:27,575 INFO [http-nio-8080-exec-2] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:27], 访问了[com.eloim.community.service.DiscussPostService.findDiscussPostRows].
+2021-08-25 00:35:27,587 INFO [http-nio-8080-exec-2] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:27], 访问了[com.eloim.community.service.DiscussPostService.findDiscussPosts].
+2021-08-25 00:35:27,589 INFO [http-nio-8080-exec-2] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:27], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:35:27,590 INFO [http-nio-8080-exec-2] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:27], 访问了[com.eloim.community.service.LikeService.findEntityLikeCount].
+2021-08-25 00:35:27,591 INFO [http-nio-8080-exec-2] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:27], 访问了[com.eloim.community.service.MessageService.findLetterUnreadCount].
+2021-08-25 00:35:27,593 INFO [http-nio-8080-exec-2] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:27], 访问了[com.eloim.community.service.MessageService.findNoticeUnReadCount].
+2021-08-25 00:35:29,899 INFO [http-nio-8080-exec-10] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:29], 访问了[com.eloim.community.service.UserService.findLoginTicket].
+2021-08-25 00:35:29,900 INFO [http-nio-8080-exec-10] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:29], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:35:29,903 INFO [http-nio-8080-exec-10] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:29], 访问了[com.eloim.community.service.UserService.getAuthorities].
+2021-08-25 00:35:29,904 INFO [http-nio-8080-exec-10] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:29], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:35:29,905 INFO [http-nio-8080-exec-10] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:29], 访问了[com.eloim.community.service.DataService.recordDAU].
+2021-08-25 00:35:29,910 INFO [http-nio-8080-exec-10] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:29], 访问了[com.eloim.community.service.DiscussPostService.findDiscussPostById].
+2021-08-25 00:35:29,914 INFO [http-nio-8080-exec-10] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:29], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:35:29,915 INFO [http-nio-8080-exec-10] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:29], 访问了[com.eloim.community.service.LikeService.findEntityLikeCount].
+2021-08-25 00:35:29,917 INFO [http-nio-8080-exec-10] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:29], 访问了[com.eloim.community.service.LikeService.findEntityLikeStatus].
+2021-08-25 00:35:29,918 INFO [http-nio-8080-exec-10] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:29], 访问了[com.eloim.community.service.CommentService.findCommentByEntity].
+2021-08-25 00:35:29,925 INFO [http-nio-8080-exec-10] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:29], 访问了[com.eloim.community.service.MessageService.findLetterUnreadCount].
+2021-08-25 00:35:29,927 INFO [http-nio-8080-exec-10] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:29], 访问了[com.eloim.community.service.MessageService.findNoticeUnReadCount].
+2021-08-25 00:35:31,256 INFO [http-nio-8080-exec-10] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:31], 访问了[com.eloim.community.service.UserService.findLoginTicket].
+2021-08-25 00:35:31,257 INFO [http-nio-8080-exec-10] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:31], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:35:31,258 INFO [http-nio-8080-exec-10] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:31], 访问了[com.eloim.community.service.UserService.getAuthorities].
+2021-08-25 00:35:31,259 INFO [http-nio-8080-exec-10] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:31], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:35:31,260 INFO [http-nio-8080-exec-10] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:31], 访问了[com.eloim.community.service.DataService.recordDAU].
+2021-08-25 00:35:31,262 INFO [http-nio-8080-exec-10] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:31], 访问了[com.eloim.community.service.LikeService.like].
+2021-08-25 00:35:31,293 INFO [http-nio-8080-exec-10] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:31], 访问了[com.eloim.community.service.LikeService.findEntityLikeCount].
+2021-08-25 00:35:31,294 INFO [http-nio-8080-exec-10] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:31], 访问了[com.eloim.community.service.LikeService.findEntityLikeStatus].
+2021-08-25 00:35:32,199 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:32], 访问了[com.eloim.community.service.UserService.findLoginTicket].
+2021-08-25 00:35:32,201 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:32], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:35:32,201 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:32], 访问了[com.eloim.community.service.UserService.getAuthorities].
+2021-08-25 00:35:32,202 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:32], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:35:32,203 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:32], 访问了[com.eloim.community.service.DataService.recordDAU].
+2021-08-25 00:35:32,204 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:32], 访问了[com.eloim.community.service.LikeService.like].
+2021-08-25 00:35:32,209 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:32], 访问了[com.eloim.community.service.LikeService.findEntityLikeCount].
+2021-08-25 00:35:32,210 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:32], 访问了[com.eloim.community.service.LikeService.findEntityLikeStatus].
+2021-08-25 00:35:36,438 INFO [http-nio-8080-exec-4] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:36], 访问了[com.eloim.community.service.UserService.findLoginTicket].
+2021-08-25 00:35:36,439 INFO [http-nio-8080-exec-4] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:36], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:35:36,440 INFO [http-nio-8080-exec-4] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:36], 访问了[com.eloim.community.service.UserService.getAuthorities].
+2021-08-25 00:35:36,441 INFO [http-nio-8080-exec-4] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:36], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:35:36,442 INFO [http-nio-8080-exec-4] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:36], 访问了[com.eloim.community.service.DataService.recordDAU].
+2021-08-25 00:35:36,442 INFO [http-nio-8080-exec-4] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:36], 访问了[com.eloim.community.service.LikeService.like].
+2021-08-25 00:35:36,448 INFO [http-nio-8080-exec-4] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:36], 访问了[com.eloim.community.service.LikeService.findEntityLikeCount].
+2021-08-25 00:35:36,449 INFO [http-nio-8080-exec-4] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:36], 访问了[com.eloim.community.service.LikeService.findEntityLikeStatus].
+2021-08-25 00:35:49,175 INFO [http-nio-8080-exec-1] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:49], 访问了[com.eloim.community.service.UserService.findLoginTicket].
+2021-08-25 00:35:49,176 INFO [http-nio-8080-exec-1] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:49], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:35:49,177 INFO [http-nio-8080-exec-1] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:49], 访问了[com.eloim.community.service.UserService.getAuthorities].
+2021-08-25 00:35:49,178 INFO [http-nio-8080-exec-1] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:49], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:35:49,179 INFO [http-nio-8080-exec-1] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:49], 访问了[com.eloim.community.service.DataService.recordDAU].
+2021-08-25 00:35:49,180 INFO [http-nio-8080-exec-1] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:49], 访问了[com.eloim.community.service.DiscussPostService.findDiscussPostRows].
+2021-08-25 00:35:49,180 INFO [http-nio-8080-exec-1] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:49], 访问了[com.eloim.community.service.DiscussPostService.findDiscussPosts].
+2021-08-25 00:35:49,183 INFO [http-nio-8080-exec-1] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:49], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:35:49,184 INFO [http-nio-8080-exec-1] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:49], 访问了[com.eloim.community.service.LikeService.findEntityLikeCount].
+2021-08-25 00:35:49,185 INFO [http-nio-8080-exec-1] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:49], 访问了[com.eloim.community.service.MessageService.findLetterUnreadCount].
+2021-08-25 00:35:49,187 INFO [http-nio-8080-exec-1] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:49], 访问了[com.eloim.community.service.MessageService.findNoticeUnReadCount].
+2021-08-25 00:35:51,281 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:51], 访问了[com.eloim.community.service.UserService.findLoginTicket].
+2021-08-25 00:35:51,283 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:51], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:35:51,285 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:51], 访问了[com.eloim.community.service.UserService.getAuthorities].
+2021-08-25 00:35:51,287 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:51], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:35:51,288 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:51], 访问了[com.eloim.community.service.DataService.recordDAU].
+2021-08-25 00:35:51,289 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:51], 访问了[com.eloim.community.service.MessageService.findConversationCout].
+2021-08-25 00:35:51,298 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:51], 访问了[com.eloim.community.service.MessageService.findConversations].
+2021-08-25 00:35:51,303 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:51], 访问了[com.eloim.community.service.MessageService.findLetterUnreadCount].
+2021-08-25 00:35:51,304 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:51], 访问了[com.eloim.community.service.MessageService.findNoticeUnReadCount].
+2021-08-25 00:35:51,306 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:51], 访问了[com.eloim.community.service.MessageService.findLetterUnreadCount].
+2021-08-25 00:35:51,307 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:51], 访问了[com.eloim.community.service.MessageService.findNoticeUnReadCount].
+2021-08-25 00:35:52,316 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:52], 访问了[com.eloim.community.service.UserService.findLoginTicket].
+2021-08-25 00:35:52,319 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:52], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:35:52,320 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:52], 访问了[com.eloim.community.service.UserService.getAuthorities].
+2021-08-25 00:35:52,321 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:52], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:35:52,322 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:52], 访问了[com.eloim.community.service.DataService.recordDAU].
+2021-08-25 00:35:52,323 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:52], 访问了[com.eloim.community.service.MessageService.findLatestNotice].
+2021-08-25 00:35:52,327 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:52], 访问了[com.eloim.community.service.MessageService.findLatestNotice].
+2021-08-25 00:35:52,329 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:52], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:35:52,330 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:52], 访问了[com.eloim.community.service.MessageService.findNoticeCount].
+2021-08-25 00:35:52,332 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:52], 访问了[com.eloim.community.service.MessageService.findNoticeUnReadCount].
+2021-08-25 00:35:52,334 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:52], 访问了[com.eloim.community.service.MessageService.findLatestNotice].
+2021-08-25 00:35:52,337 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:52], 访问了[com.eloim.community.service.MessageService.findLetterUnreadCount].
+2021-08-25 00:35:52,338 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:52], 访问了[com.eloim.community.service.MessageService.findNoticeUnReadCount].
+2021-08-25 00:35:52,340 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:52], 访问了[com.eloim.community.service.MessageService.findLetterUnreadCount].
+2021-08-25 00:35:52,341 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:52], 访问了[com.eloim.community.service.MessageService.findNoticeUnReadCount].
+2021-08-25 00:35:57,380 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:57], 访问了[com.eloim.community.service.UserService.findLoginTicket].
+2021-08-25 00:35:57,383 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:57], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:35:57,386 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:57], 访问了[com.eloim.community.service.UserService.getAuthorities].
+2021-08-25 00:35:57,387 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:57], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:35:57,387 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:57], 访问了[com.eloim.community.service.DataService.recordDAU].
+2021-08-25 00:35:57,389 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:57], 访问了[com.eloim.community.service.MessageService.findNoticeCount].
+2021-08-25 00:35:57,391 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:57], 访问了[com.eloim.community.service.MessageService.findNotices].
+2021-08-25 00:35:57,395 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:57], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:35:57,396 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:57], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:35:57,397 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:57], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:35:57,398 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:57], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:35:57,399 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:57], 访问了[com.eloim.community.service.MessageService.readMessage].
+2021-08-25 00:35:57,405 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:57], 访问了[com.eloim.community.service.MessageService.findLetterUnreadCount].
+2021-08-25 00:35:57,406 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:35:57], 访问了[com.eloim.community.service.MessageService.findNoticeUnReadCount].
+2021-08-25 00:36:01,739 INFO [http-nio-8080-exec-4] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:01], 访问了[com.eloim.community.service.UserService.findLoginTicket].
+2021-08-25 00:36:01,740 INFO [http-nio-8080-exec-4] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:01], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:36:01,742 INFO [http-nio-8080-exec-4] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:01], 访问了[com.eloim.community.service.UserService.getAuthorities].
+2021-08-25 00:36:01,744 INFO [http-nio-8080-exec-4] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:01], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:36:01,746 INFO [http-nio-8080-exec-4] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:01], 访问了[com.eloim.community.service.DataService.recordDAU].
+2021-08-25 00:36:01,748 INFO [http-nio-8080-exec-4] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:01], 访问了[com.eloim.community.service.DiscussPostService.findDiscussPostRows].
+2021-08-25 00:36:01,748 INFO [http-nio-8080-exec-4] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:01], 访问了[com.eloim.community.service.DiscussPostService.findDiscussPosts].
+2021-08-25 00:36:01,751 INFO [http-nio-8080-exec-4] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:01], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:36:01,752 INFO [http-nio-8080-exec-4] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:01], 访问了[com.eloim.community.service.LikeService.findEntityLikeCount].
+2021-08-25 00:36:01,753 INFO [http-nio-8080-exec-4] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:01], 访问了[com.eloim.community.service.MessageService.findLetterUnreadCount].
+2021-08-25 00:36:01,755 INFO [http-nio-8080-exec-4] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:01], 访问了[com.eloim.community.service.MessageService.findNoticeUnReadCount].
+2021-08-25 00:36:02,683 INFO [http-nio-8080-exec-9] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:02], 访问了[com.eloim.community.service.UserService.findLoginTicket].
+2021-08-25 00:36:02,685 INFO [http-nio-8080-exec-9] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:02], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:36:02,686 INFO [http-nio-8080-exec-9] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:02], 访问了[com.eloim.community.service.UserService.getAuthorities].
+2021-08-25 00:36:02,687 INFO [http-nio-8080-exec-9] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:02], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:36:02,688 INFO [http-nio-8080-exec-9] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:02], 访问了[com.eloim.community.service.DataService.recordDAU].
+2021-08-25 00:36:02,689 INFO [http-nio-8080-exec-9] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:02], 访问了[com.eloim.community.service.DiscussPostService.findDiscussPostById].
+2021-08-25 00:36:02,691 INFO [http-nio-8080-exec-9] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:02], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:36:02,692 INFO [http-nio-8080-exec-9] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:02], 访问了[com.eloim.community.service.LikeService.findEntityLikeCount].
+2021-08-25 00:36:02,693 INFO [http-nio-8080-exec-9] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:02], 访问了[com.eloim.community.service.LikeService.findEntityLikeStatus].
+2021-08-25 00:36:02,694 INFO [http-nio-8080-exec-9] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:02], 访问了[com.eloim.community.service.CommentService.findCommentByEntity].
+2021-08-25 00:36:02,695 INFO [http-nio-8080-exec-9] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:02], 访问了[com.eloim.community.service.MessageService.findLetterUnreadCount].
+2021-08-25 00:36:02,697 INFO [http-nio-8080-exec-9] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:02], 访问了[com.eloim.community.service.MessageService.findNoticeUnReadCount].
+2021-08-25 00:36:03,711 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:03], 访问了[com.eloim.community.service.UserService.findLoginTicket].
+2021-08-25 00:36:03,712 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:03], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:36:03,713 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:03], 访问了[com.eloim.community.service.UserService.getAuthorities].
+2021-08-25 00:36:03,714 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:03], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:36:03,715 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:03], 访问了[com.eloim.community.service.DataService.recordDAU].
+2021-08-25 00:36:03,716 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:03], 访问了[com.eloim.community.service.LikeService.like].
+2021-08-25 00:36:03,722 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:03], 访问了[com.eloim.community.service.LikeService.findEntityLikeCount].
+2021-08-25 00:36:03,723 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:03], 访问了[com.eloim.community.service.LikeService.findEntityLikeStatus].
+2021-08-25 00:36:04,178 INFO [http-nio-8080-exec-7] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:04], 访问了[com.eloim.community.service.UserService.findLoginTicket].
+2021-08-25 00:36:04,179 INFO [http-nio-8080-exec-7] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:04], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:36:04,180 INFO [http-nio-8080-exec-7] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:04], 访问了[com.eloim.community.service.UserService.getAuthorities].
+2021-08-25 00:36:04,180 INFO [http-nio-8080-exec-7] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:04], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:36:04,181 INFO [http-nio-8080-exec-7] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:04], 访问了[com.eloim.community.service.DataService.recordDAU].
+2021-08-25 00:36:04,182 INFO [http-nio-8080-exec-7] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:04], 访问了[com.eloim.community.service.LikeService.like].
+2021-08-25 00:36:04,186 INFO [http-nio-8080-exec-7] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:04], 访问了[com.eloim.community.service.LikeService.findEntityLikeCount].
+2021-08-25 00:36:04,187 INFO [http-nio-8080-exec-7] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:04], 访问了[com.eloim.community.service.LikeService.findEntityLikeStatus].
+2021-08-25 00:36:04,620 INFO [http-nio-8080-exec-1] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:04], 访问了[com.eloim.community.service.UserService.findLoginTicket].
+2021-08-25 00:36:04,621 INFO [http-nio-8080-exec-1] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:04], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:36:04,622 INFO [http-nio-8080-exec-1] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:04], 访问了[com.eloim.community.service.UserService.getAuthorities].
+2021-08-25 00:36:04,622 INFO [http-nio-8080-exec-1] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:04], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:36:04,623 INFO [http-nio-8080-exec-1] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:04], 访问了[com.eloim.community.service.DataService.recordDAU].
+2021-08-25 00:36:04,623 INFO [http-nio-8080-exec-1] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:04], 访问了[com.eloim.community.service.LikeService.like].
+2021-08-25 00:36:04,627 INFO [http-nio-8080-exec-1] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:04], 访问了[com.eloim.community.service.LikeService.findEntityLikeCount].
+2021-08-25 00:36:04,628 INFO [http-nio-8080-exec-1] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:04], 访问了[com.eloim.community.service.LikeService.findEntityLikeStatus].
+2021-08-25 00:36:04,989 INFO [http-nio-8080-exec-10] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:04], 访问了[com.eloim.community.service.UserService.findLoginTicket].
+2021-08-25 00:36:04,990 INFO [http-nio-8080-exec-10] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:04], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:36:04,991 INFO [http-nio-8080-exec-10] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:04], 访问了[com.eloim.community.service.UserService.getAuthorities].
+2021-08-25 00:36:04,992 INFO [http-nio-8080-exec-10] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:04], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:36:04,993 INFO [http-nio-8080-exec-10] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:04], 访问了[com.eloim.community.service.DataService.recordDAU].
+2021-08-25 00:36:04,993 INFO [http-nio-8080-exec-10] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:04], 访问了[com.eloim.community.service.LikeService.like].
+2021-08-25 00:36:04,998 INFO [http-nio-8080-exec-10] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:04], 访问了[com.eloim.community.service.LikeService.findEntityLikeCount].
+2021-08-25 00:36:04,999 INFO [http-nio-8080-exec-10] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:04], 访问了[com.eloim.community.service.LikeService.findEntityLikeStatus].
+2021-08-25 00:36:05,343 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:05], 访问了[com.eloim.community.service.UserService.findLoginTicket].
+2021-08-25 00:36:05,344 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:05], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:36:05,345 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:05], 访问了[com.eloim.community.service.UserService.getAuthorities].
+2021-08-25 00:36:05,346 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:05], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:36:05,346 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:05], 访问了[com.eloim.community.service.DataService.recordDAU].
+2021-08-25 00:36:05,347 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:05], 访问了[com.eloim.community.service.LikeService.like].
+2021-08-25 00:36:05,351 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:05], 访问了[com.eloim.community.service.LikeService.findEntityLikeCount].
+2021-08-25 00:36:05,352 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:05], 访问了[com.eloim.community.service.LikeService.findEntityLikeStatus].
+2021-08-25 00:36:05,702 INFO [http-nio-8080-exec-9] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:05], 访问了[com.eloim.community.service.UserService.findLoginTicket].
+2021-08-25 00:36:05,703 INFO [http-nio-8080-exec-9] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:05], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:36:05,704 INFO [http-nio-8080-exec-9] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:05], 访问了[com.eloim.community.service.UserService.getAuthorities].
+2021-08-25 00:36:05,704 INFO [http-nio-8080-exec-9] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:05], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:36:05,704 INFO [http-nio-8080-exec-9] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:05], 访问了[com.eloim.community.service.DataService.recordDAU].
+2021-08-25 00:36:05,705 INFO [http-nio-8080-exec-9] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:05], 访问了[com.eloim.community.service.LikeService.like].
+2021-08-25 00:36:05,709 INFO [http-nio-8080-exec-9] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:05], 访问了[com.eloim.community.service.LikeService.findEntityLikeCount].
+2021-08-25 00:36:05,710 INFO [http-nio-8080-exec-9] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:05], 访问了[com.eloim.community.service.LikeService.findEntityLikeStatus].
+2021-08-25 00:36:06,087 INFO [http-nio-8080-exec-6] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:06], 访问了[com.eloim.community.service.UserService.findLoginTicket].
+2021-08-25 00:36:06,088 INFO [http-nio-8080-exec-6] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:06], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:36:06,089 INFO [http-nio-8080-exec-6] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:06], 访问了[com.eloim.community.service.UserService.getAuthorities].
+2021-08-25 00:36:06,090 INFO [http-nio-8080-exec-6] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:06], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:36:06,091 INFO [http-nio-8080-exec-6] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:06], 访问了[com.eloim.community.service.DataService.recordDAU].
+2021-08-25 00:36:06,092 INFO [http-nio-8080-exec-6] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:06], 访问了[com.eloim.community.service.LikeService.like].
+2021-08-25 00:36:06,095 INFO [http-nio-8080-exec-6] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:06], 访问了[com.eloim.community.service.LikeService.findEntityLikeCount].
+2021-08-25 00:36:06,096 INFO [http-nio-8080-exec-6] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:06], 访问了[com.eloim.community.service.LikeService.findEntityLikeStatus].
+2021-08-25 00:36:06,435 INFO [http-nio-8080-exec-2] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:06], 访问了[com.eloim.community.service.UserService.findLoginTicket].
+2021-08-25 00:36:06,436 INFO [http-nio-8080-exec-2] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:06], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:36:06,437 INFO [http-nio-8080-exec-2] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:06], 访问了[com.eloim.community.service.UserService.getAuthorities].
+2021-08-25 00:36:06,437 INFO [http-nio-8080-exec-2] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:06], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:36:06,438 INFO [http-nio-8080-exec-2] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:06], 访问了[com.eloim.community.service.DataService.recordDAU].
+2021-08-25 00:36:06,439 INFO [http-nio-8080-exec-2] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:06], 访问了[com.eloim.community.service.LikeService.like].
+2021-08-25 00:36:06,442 INFO [http-nio-8080-exec-2] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:06], 访问了[com.eloim.community.service.LikeService.findEntityLikeCount].
+2021-08-25 00:36:06,442 INFO [http-nio-8080-exec-2] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:06], 访问了[com.eloim.community.service.LikeService.findEntityLikeStatus].
+2021-08-25 00:36:06,777 INFO [http-nio-8080-exec-4] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:06], 访问了[com.eloim.community.service.UserService.findLoginTicket].
+2021-08-25 00:36:06,778 INFO [http-nio-8080-exec-4] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:06], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:36:06,779 INFO [http-nio-8080-exec-4] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:06], 访问了[com.eloim.community.service.UserService.getAuthorities].
+2021-08-25 00:36:06,779 INFO [http-nio-8080-exec-4] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:06], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:36:06,781 INFO [http-nio-8080-exec-4] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:06], 访问了[com.eloim.community.service.DataService.recordDAU].
+2021-08-25 00:36:06,782 INFO [http-nio-8080-exec-4] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:06], 访问了[com.eloim.community.service.LikeService.like].
+2021-08-25 00:36:06,785 INFO [http-nio-8080-exec-4] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:06], 访问了[com.eloim.community.service.LikeService.findEntityLikeCount].
+2021-08-25 00:36:06,786 INFO [http-nio-8080-exec-4] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:06], 访问了[com.eloim.community.service.LikeService.findEntityLikeStatus].
+2021-08-25 00:36:07,145 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:07], 访问了[com.eloim.community.service.UserService.findLoginTicket].
+2021-08-25 00:36:07,146 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:07], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:36:07,147 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:07], 访问了[com.eloim.community.service.UserService.getAuthorities].
+2021-08-25 00:36:07,147 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:07], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:36:07,148 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:07], 访问了[com.eloim.community.service.DataService.recordDAU].
+2021-08-25 00:36:07,149 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:07], 访问了[com.eloim.community.service.LikeService.like].
+2021-08-25 00:36:07,153 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:07], 访问了[com.eloim.community.service.LikeService.findEntityLikeCount].
+2021-08-25 00:36:07,153 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:07], 访问了[com.eloim.community.service.LikeService.findEntityLikeStatus].
+2021-08-25 00:36:08,389 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:08], 访问了[com.eloim.community.service.UserService.findLoginTicket].
+2021-08-25 00:36:08,391 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:08], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:36:08,393 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:08], 访问了[com.eloim.community.service.UserService.getAuthorities].
+2021-08-25 00:36:08,394 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:08], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:36:08,395 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:08], 访问了[com.eloim.community.service.DataService.recordDAU].
+2021-08-25 00:36:08,396 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:08], 访问了[com.eloim.community.service.DiscussPostService.findDiscussPostById].
+2021-08-25 00:36:08,398 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:08], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:36:08,399 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:08], 访问了[com.eloim.community.service.LikeService.findEntityLikeCount].
+2021-08-25 00:36:08,399 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:08], 访问了[com.eloim.community.service.LikeService.findEntityLikeStatus].
+2021-08-25 00:36:08,400 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:08], 访问了[com.eloim.community.service.CommentService.findCommentByEntity].
+2021-08-25 00:36:08,402 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:08], 访问了[com.eloim.community.service.MessageService.findLetterUnreadCount].
+2021-08-25 00:36:08,405 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:08], 访问了[com.eloim.community.service.MessageService.findNoticeUnReadCount].
+2021-08-25 00:36:10,356 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:10], 访问了[com.eloim.community.service.UserService.findLoginTicket].
+2021-08-25 00:36:10,357 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:10], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:36:10,358 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:10], 访问了[com.eloim.community.service.UserService.getAuthorities].
+2021-08-25 00:36:10,361 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:10], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:36:10,361 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:10], 访问了[com.eloim.community.service.DataService.recordDAU].
+2021-08-25 00:36:10,362 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:10], 访问了[com.eloim.community.service.MessageService.findConversationCout].
+2021-08-25 00:36:10,372 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:10], 访问了[com.eloim.community.service.MessageService.findConversations].
+2021-08-25 00:36:10,374 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:10], 访问了[com.eloim.community.service.MessageService.findLetterUnreadCount].
+2021-08-25 00:36:10,374 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:10], 访问了[com.eloim.community.service.MessageService.findNoticeUnReadCount].
+2021-08-25 00:36:10,376 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:10], 访问了[com.eloim.community.service.MessageService.findLetterUnreadCount].
+2021-08-25 00:36:10,377 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:10], 访问了[com.eloim.community.service.MessageService.findNoticeUnReadCount].
+2021-08-25 00:36:11,385 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:11], 访问了[com.eloim.community.service.UserService.findLoginTicket].
+2021-08-25 00:36:11,387 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:11], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:36:11,388 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:11], 访问了[com.eloim.community.service.UserService.getAuthorities].
+2021-08-25 00:36:11,389 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:11], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:36:11,390 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:11], 访问了[com.eloim.community.service.DataService.recordDAU].
+2021-08-25 00:36:11,391 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:11], 访问了[com.eloim.community.service.MessageService.findLatestNotice].
+2021-08-25 00:36:11,392 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:11], 访问了[com.eloim.community.service.MessageService.findLatestNotice].
+2021-08-25 00:36:11,394 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:11], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:36:11,395 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:11], 访问了[com.eloim.community.service.MessageService.findNoticeCount].
+2021-08-25 00:36:11,396 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:11], 访问了[com.eloim.community.service.MessageService.findNoticeUnReadCount].
+2021-08-25 00:36:11,398 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:11], 访问了[com.eloim.community.service.MessageService.findLatestNotice].
+2021-08-25 00:36:11,399 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:11], 访问了[com.eloim.community.service.MessageService.findLetterUnreadCount].
+2021-08-25 00:36:11,400 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:11], 访问了[com.eloim.community.service.MessageService.findNoticeUnReadCount].
+2021-08-25 00:36:11,402 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:11], 访问了[com.eloim.community.service.MessageService.findLetterUnreadCount].
+2021-08-25 00:36:11,405 INFO [http-nio-8080-exec-8] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:11], 访问了[com.eloim.community.service.MessageService.findNoticeUnReadCount].
+2021-08-25 00:36:18,957 INFO [http-nio-8080-exec-7] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:18], 访问了[com.eloim.community.service.UserService.findLoginTicket].
+2021-08-25 00:36:18,959 INFO [http-nio-8080-exec-7] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:18], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:36:18,960 INFO [http-nio-8080-exec-7] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:18], 访问了[com.eloim.community.service.UserService.getAuthorities].
+2021-08-25 00:36:18,962 INFO [http-nio-8080-exec-7] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:18], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:36:18,963 INFO [http-nio-8080-exec-7] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:18], 访问了[com.eloim.community.service.DataService.recordDAU].
+2021-08-25 00:36:18,964 INFO [http-nio-8080-exec-7] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:18], 访问了[com.eloim.community.service.MessageService.findConversationCout].
+2021-08-25 00:36:18,965 INFO [http-nio-8080-exec-7] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:18], 访问了[com.eloim.community.service.MessageService.findConversations].
+2021-08-25 00:36:18,967 INFO [http-nio-8080-exec-7] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:18], 访问了[com.eloim.community.service.MessageService.findLetterUnreadCount].
+2021-08-25 00:36:18,968 INFO [http-nio-8080-exec-7] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:18], 访问了[com.eloim.community.service.MessageService.findNoticeUnReadCount].
+2021-08-25 00:36:18,970 INFO [http-nio-8080-exec-7] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:18], 访问了[com.eloim.community.service.MessageService.findLetterUnreadCount].
+2021-08-25 00:36:18,972 INFO [http-nio-8080-exec-7] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:18], 访问了[com.eloim.community.service.MessageService.findNoticeUnReadCount].
+2021-08-25 00:36:19,727 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:19], 访问了[com.eloim.community.service.UserService.findLoginTicket].
+2021-08-25 00:36:19,729 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:19], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:36:19,730 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:19], 访问了[com.eloim.community.service.UserService.getAuthorities].
+2021-08-25 00:36:19,731 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:19], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:36:19,731 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:19], 访问了[com.eloim.community.service.DataService.recordDAU].
+2021-08-25 00:36:19,732 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:19], 访问了[com.eloim.community.service.MessageService.findLatestNotice].
+2021-08-25 00:36:19,733 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:19], 访问了[com.eloim.community.service.MessageService.findLatestNotice].
+2021-08-25 00:36:19,735 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:19], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:36:19,736 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:19], 访问了[com.eloim.community.service.MessageService.findNoticeCount].
+2021-08-25 00:36:19,738 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:19], 访问了[com.eloim.community.service.MessageService.findNoticeUnReadCount].
+2021-08-25 00:36:19,739 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:19], 访问了[com.eloim.community.service.MessageService.findLatestNotice].
+2021-08-25 00:36:19,740 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:19], 访问了[com.eloim.community.service.MessageService.findLetterUnreadCount].
+2021-08-25 00:36:19,742 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:19], 访问了[com.eloim.community.service.MessageService.findNoticeUnReadCount].
+2021-08-25 00:36:19,743 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:19], 访问了[com.eloim.community.service.MessageService.findLetterUnreadCount].
+2021-08-25 00:36:19,744 INFO [http-nio-8080-exec-3] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:19], 访问了[com.eloim.community.service.MessageService.findNoticeUnReadCount].
+2021-08-25 00:36:21,146 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:21], 访问了[com.eloim.community.service.UserService.findLoginTicket].
+2021-08-25 00:36:21,147 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:21], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:36:21,149 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:21], 访问了[com.eloim.community.service.UserService.getAuthorities].
+2021-08-25 00:36:21,151 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:21], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:36:21,151 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:21], 访问了[com.eloim.community.service.DataService.recordDAU].
+2021-08-25 00:36:21,152 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:21], 访问了[com.eloim.community.service.MessageService.findNoticeCount].
+2021-08-25 00:36:21,155 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:21], 访问了[com.eloim.community.service.MessageService.findNotices].
+2021-08-25 00:36:21,158 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:21], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:36:21,163 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:21], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:36:21,167 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:21], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:36:21,170 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:21], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:36:21,174 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:21], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:36:21,178 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:21], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:36:21,181 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:21], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:36:21,182 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:21], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:36:21,183 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:21], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:36:21,183 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:21], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:36:21,184 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:21], 访问了[com.eloim.community.service.MessageService.readMessage].
+2021-08-25 00:36:21,196 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:21], 访问了[com.eloim.community.service.MessageService.findLetterUnreadCount].
+2021-08-25 00:36:21,198 INFO [http-nio-8080-exec-5] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:21], 访问了[com.eloim.community.service.MessageService.findNoticeUnReadCount].
+2021-08-25 00:36:30,377 INFO [http-nio-8080-exec-9] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:30], 访问了[com.eloim.community.service.UserService.findLoginTicket].
+2021-08-25 00:36:30,379 INFO [http-nio-8080-exec-9] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:30], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:36:30,380 INFO [http-nio-8080-exec-9] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:30], 访问了[com.eloim.community.service.UserService.getAuthorities].
+2021-08-25 00:36:30,382 INFO [http-nio-8080-exec-9] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:30], 访问了[com.eloim.community.service.DataService.recordUV].
+2021-08-25 00:36:30,384 INFO [http-nio-8080-exec-9] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:30], 访问了[com.eloim.community.service.DataService.recordDAU].
+2021-08-25 00:36:30,386 INFO [http-nio-8080-exec-9] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:30], 访问了[com.eloim.community.service.DiscussPostService.findDiscussPostRows].
+2021-08-25 00:36:30,387 INFO [http-nio-8080-exec-9] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:30], 访问了[com.eloim.community.service.DiscussPostService.findDiscussPosts].
+2021-08-25 00:36:30,390 INFO [http-nio-8080-exec-9] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:30], 访问了[com.eloim.community.service.UserService.findUserById].
+2021-08-25 00:36:30,391 INFO [http-nio-8080-exec-9] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:30], 访问了[com.eloim.community.service.LikeService.findEntityLikeCount].
+2021-08-25 00:36:30,392 INFO [http-nio-8080-exec-9] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:30], 访问了[com.eloim.community.service.MessageService.findLetterUnreadCount].
+2021-08-25 00:36:30,394 INFO [http-nio-8080-exec-9] c.e.c.a.ServiceLogAspect [ServiceLogAspect.java:42] 用户[0:0:0:0:0:0:0:1], 在[2021-08-25 00:36:30], 访问了[com.eloim.community.service.MessageService.findNoticeUnReadCount].
